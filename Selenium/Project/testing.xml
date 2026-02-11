@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteCRM Automation Suite" verbose="1">
+
+    <test name="SuiteCRM Activities Tests">
+
+        <classes>
+
+            <class name="tests.Activity1_VerifyTitleTest"/>
+            <class name="tests.Activity2_HeaderImageUrlTest"/>
+            <class name="tests.Activity3_CopyrightTextTest"/>
+            <class name="tests.Activity4_LoginTest"/>
+            <class name="tests.Activity5_NavigationMenuColorTest"/>
+            <class name="tests.Activity6_ActivitiesMenuClickableTest"/>
+            <class name="tests.Activity7_ReadPopupPhoneTest"/>
+            <class name="tests.Activity8_PrintAccountsTableOddRowsTest"/>
+            <class name="tests.Activity9_PrintLeadsTableTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
